@@ -68,7 +68,7 @@ export function PreviousEvents() {
           </form>
         </div>
         <hr></hr>
-          Previous Logs (found: {itemsFound})
+          Previous Logs (found: {itemsFound?.toString()})
           <ul>
               {printLogs?.map(att => (
                   <li key={att.key}>
