@@ -62,7 +62,7 @@ export function PreviousEvents() {
         <div>
           <form onSubmit={submit}> 
             Blocks back: <input name="blocksBack" placeholder="# blocks in the past" defaultValue={LAST_100000_BLOCKS.toString()} required/><br></br>
-            Address list: <input name="addressList" placeholder="address list" defaultValue='0xD755bC2759F2F140a2Cc1649371c26a20ec3deAB' style={{ width:"500px" }} />
+            Address list: <input name="addressList" placeholder="filter by address (comma separated list)" style={{ width:"500px" }} />
             <button disabled={isPending} type="submit">
                 {isPending ? 'Searching...' : 'Search'}
             </button>
