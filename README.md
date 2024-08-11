@@ -9,3 +9,6 @@ Create .env with variable `VITE_RPC_URL = "https://spicy-rpc.chiliz.com"`
 
 ### Run locally
 `pnpm run dev`
+
+### Url
+`http://localhost:5173`
