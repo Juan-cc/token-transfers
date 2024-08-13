@@ -18,7 +18,6 @@ export function PreviousEvents() {
     const formData = new FormData(e.target as HTMLFormElement) 
     let fromBlock = BigInt(formData.get('blocksBack') as string) 
     const addressList = formData.get('addressList') as string 
-    // @ts-expect-error
     const publicClient = getPublicClient(config)
 
     try {
